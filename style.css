@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Questrial&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow: hidden;
+}
+
+nav{
+    background-image: linear-gradient(to right, #0097b2, #7ed657);
+    width: 100vw;
+    height: 25vh;
+}
+
+.links{
+    margin-top: 4vh;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.links a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 4vh;
+    background-color: #0b6e4f;
+    padding: 1vh;
+    border-radius: 2vh;
+    margin: 18vh;
+}
+
+#sec{
+    margin-left: 23vh;
+}
+
+.text{
+    color: #073b3a;
+    text-align: center;
+    font-size: xxx-large; 
+    padding-top: 5vh;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-shadow: -10px -2px 6px rgba(0, 0, 0, 0.287); 
+}
+
+.icon{
+    background: url(media/sprites.png);
+    background-repeat: no-repeat;
+    width: 122px;
+	height: 122px;
+    margin-right: 19.7vw;
+    z-index: -9;;
+}
+
+.sprites{
+    margin-top: -7vh;
+    margin-left: 4vw;
+    width:100vw;
+    display:flex;
+    position: fixed;
+
+}
+
+#act{
+    background-position: -1174px -1140px; 
+    width: 121px; 
+    height: 121px;
+}
+#about{background-position: -750px -1149px;}
+#don{
+    background-position: -962px -778px;
+}
+#home{background-position: -750px -958px;}
+/*END OF NAVBAR CSS*/
+
+/*HOME PAGE CSS*/
+.content{
+    display: inline-flex;
+    outline: auto;
+}
+
+article{
+    width: 25vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Questrial", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.main{
+    width: 50vw;
+    height: 75vh;
+    overflow-x: hidden;
+}
+
+#text-main{
+    height: 55vh;
+    width: 45vw;
+    margin: auto;
+    padding: .2%;
+    color: #073b3a;
+    overflow-y: scroll;
+}    
+
+#org h1{
+    color: #0b6e4f;
+    text-align: center;
+    font-size: 7vh; 
+    padding-top: 7vh;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: -10px -2px 6px rgba(0, 0, 0, 0.287); 
+
+}
+ 
+#text-main p{
+    font-size: 3vh;
+    padding-bottom: 7vh;
+    font-family: "Questrial", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+ 
+.content a{ 
+    font-size: xxx-large;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 5vh;
+    margin-left: 4.2vw;
+    color: antiquewhite;
+    background-color: #08a845;
+    padding: 1vh;
+    width: 15vw;
+}
+
+#ind-pic1{
+    width: 20vw;
+    height: 30vh;
+    border-radius: 100px;
+    margin-left: 2.3vw;
+    margin-top: 2vw;
+}
+
+#ind-pic2{
+    width: 20vw;
+    height: 30vh;
+    border-radius: 100px;
+    margin-left: 2.3vw;
+    margin-top: 2vw;
+}
+
+#first article{
+    overflow-x: hidden;
+    height: 25vh;
+    width: 20vw;
+    margin-left: 2.3vw;
+    margin-top: 1vh;
+}
+
+#second article{
+    overflow-x: hidden;
+    height: 25vh;
+    width: 20vw;
+    margin-left: 2.3vw;
+    margin-top: 1vh;
+}
+
+/*ACTIVITY PAGE CSS*/
+.about-content{
+    display: inline-flex;
+}
+
+#act-pic{
+    height: 75vh;
+    width: 45vw;
+    outline: black 2px solid;
+}
+
+#act-cont{
+    height: 75vh;
+    width: 35vw;
+    outline: black 2px solid;
+}
+
+#act-ann{
+    height: 75vh;
+    width: 20vw;
+    outline: black 2px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.anim{
+    margin-top: 9vh;
+    margin-left: 3vw;
+    height: 30vh;
+    width: 14vw;
+    outline: black 2px solid;
+    border-radius: 100px;
+}
+
+.ann{
+    margin-top: 6.8vh;
+    margin-left: 3vw;
+    height: 25vh;
+    width: 14vw;
+    outline: black 2px solid;
+}
+
+/*ABOUT US PAGE CSS*/
+
+#abt-banner{
+    width: 100vw;
+    height: 40vh;
+    overflow: hidden;
+}
+
+#abt-vid{
+    width:100%;
+}
+
+#abt-main{
+    height: 120vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#about{
+    overflow: scroll;
+}
